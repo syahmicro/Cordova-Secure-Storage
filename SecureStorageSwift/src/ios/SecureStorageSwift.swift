@@ -1,3 +1,6 @@
+import Foundation
+import OSCommonPluginLib
+
 @objc(SecureStorageSwift) class SecureStorageSwift : CDVPlugin {
   func echo(command: CDVInvokedUrlCommand) {
     var pluginResult = CDVPluginResult(
