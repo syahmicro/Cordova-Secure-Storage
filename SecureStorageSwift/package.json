@@ -1,0 +1,7 @@
+{
+  "name": "com-securestorage-plugins-swift",
+  "displayName": "SecureStorageSwift",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "SecureStorageSwift.js"
+}
