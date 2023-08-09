@@ -3,5 +3,25 @@
   "displayName": "SecureStorageSwift",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
-  "main": "SecureStorageSwift.js"
+  "author": "Muhamad Syahrul Fahmie <syahrmicro@gmail.com>",
+  "contributors": [
+    {
+      "name": "Muhamad Syahrul Fahmie",
+      "email": "syahrmicro@gmail.com"
+    }
+  ],
+  "cordova": {
+    "id": "com-securestorage-plugins-swift",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows"
+    ]
+  },
+  "main": "www/SecureStorageSwift.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syahmicro/Cordova-Secure-Storage.git"
+  }
 }
