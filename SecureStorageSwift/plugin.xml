@@ -7,7 +7,7 @@
     <platform name="iOS">
   <config-file target="config.xml" parent="/*">
     <feature name="SecureStorageSwift">
-      <param name="iso-package" value="SecureStorageSwift" />
+      <param name="ios-package" value="SecureStorageSwift" />
     </feature>
   </config-file>
 		<!-- iOS Source Files -->
