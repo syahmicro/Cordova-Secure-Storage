@@ -10,6 +10,9 @@
       <param name="iso-package" value="SecureStorageSwift" />
     </feature>
   </config-file>
+		<!-- iOS Source Files -->
   <source-file src="src/ios/SecureStorageSwift.swift" />
+  <header-file src="src/ios/AppDelegate+SecureStorageSwift.h" />
+  <source-file src="src/ios/AppDelegate+SecureStorageSwift.m" />
 </platform>
 </plugin>
