@@ -2,6 +2,14 @@
 <plugin id="com-securestorage-plugins-swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>SecureStorageSwift</name>
     <js-module name="SecureStorageSwift" src="www/SecureStorageSwift.js">
-        <clobbers target="cordova.plugins.SecureStorageSwift" />
+        <clobbers target="SecureStorageSwift" />
     </js-module>
+    <platform name="iOS">
+  <config-file target="config.xml" parent="/*">
+    <feature name="SecureStorageSwift">
+      <param name="iso-package" value="SecureStorageSwift" />
+    </feature>
+  </config-file>
+  <source-file src="src/ios/SecureStorageSwift.swift" />
+</platform>
 </plugin>
