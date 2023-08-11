@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' standalone="yes"?>
-<plugin id="com-securestorage-plugins-swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.securestorage.plugins.swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>SecureStorageSwift</name>
     <description>Outsystems plugin for Secure Storage with SamKeyChain implemented</description>
     <js-module name="SecureStorageSwift" src="www/SecureStorageSwift.js">
@@ -13,7 +13,7 @@
       </feature>
       <preference name="UseSwiftLanguageVersion" value="5" />
     </config-file>
-    
+
 		<!-- iOS Source Files -->
   <source-file src="src/ios/SecureStorageSwift.swift" />
   <header-file src="src/ios/AppDelegate+SecureStorageSwift.h" />
