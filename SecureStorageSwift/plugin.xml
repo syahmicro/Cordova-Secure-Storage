@@ -3,7 +3,7 @@
     <name>SecureStorageSwift</name>
     <description>Outsystems plugin for Secure Storage with SamKeyChain implemented</description>
     <js-module name="SecureStorageSwift" src="www/SecureStorageSwift.js">
-        <clobbers target="cordova.plugins.SecureStorageSwift" />
+        <clobbers target="SecureStorageSwift" />
     </js-module>
 
     <platform name="iOS">
