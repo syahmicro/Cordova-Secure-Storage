@@ -8,6 +8,7 @@
   <config-file target="config.xml" parent="/*">
     <feature name="SecureStorageSwift">
       <param name="ios-package" value="SecureStorageSwift" />
+      <param name="onload" value="true" />
     </feature>
   </config-file>
 		<!-- iOS Source Files -->
