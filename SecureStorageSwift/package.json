@@ -7,6 +7,7 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "license": "MIT",
   "author": "Muhamad Syahrul Fahmie <syahrmicro@gmail.com>",
   "contributors": [
     {

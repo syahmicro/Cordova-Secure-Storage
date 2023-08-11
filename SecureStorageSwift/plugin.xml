@@ -2,6 +2,13 @@
 <plugin id="com.securestorage.plugins.swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>SecureStorageSwift</name>
     <description>Outsystems plugin for Secure Storage with SamKeyChain implemented</description>
+
+    <keywords>cordova,ios,toast,message,alert</keywords>  
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+
     <js-module name="SecureStorageSwift" src="www/SecureStorageSwift.js">
         <clobbers target="cordova.plugins.SecureStorageSwift" />
     </js-module>

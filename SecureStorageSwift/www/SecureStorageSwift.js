@@ -15,3 +15,24 @@ exports.echo = function(arg0, success, error) {
 //       error('Empty message!');
 //     }
 // };
+
+// Empty constructor
+function SecureStorageSwift() {}
+
+// The function that passes work along to native shells
+// Message is a string, duration may be 'long' or 'short'
+SecureStorageSwift.prototype.show = function(message, duration, successCallback, errorCallback) {
+  var options = {};
+  options.message = message;
+  options.duration = duration;
+  cordova.exec(successCallback, errorCallback, 'SecureStorageSwift', 'show', [options]);
+}
+
+// Installation constructor that binds ToastyPlugin to window
+SecureStorageSwift.install = function() {
+  if (!cordova.plugins) {
+    cordova.plugins = {};
+  }
+  cordova.plugins.SecureStorageSwift = new SecureStorageSwift();
+  return cordova.plugins.SecureStorageSwift;
+};
