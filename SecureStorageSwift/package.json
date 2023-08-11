@@ -1,8 +1,13 @@
 {
-  "name": "com-securestorage-plugins-swift",
+  "name": "com.securestorage.plugins.swift",
   "displayName": "SecureStorageSwift",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
   "author": "Muhamad Syahrul Fahmie <syahrmicro@gmail.com>",
   "contributors": [
     {
@@ -11,7 +16,7 @@
     }
   ],
   "cordova": {
-    "id": "com-securestorage-plugins-swift",
+    "id": "com.securestorage.plugins.swift",
     "platforms": [
       "android",
       "ios",
