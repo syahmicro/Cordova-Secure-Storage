@@ -5,6 +5,7 @@
     <js-module name="SecureStorageSwift" src="www/SecureStorageSwift.js">
         <clobbers target="cordova.plugins.SecureStorageSwift" />
     </js-module>
+
     <platform name="iOS">
     <config-file target="config.xml" parent="/*">
       <feature name="SecureStorageSwift">
@@ -12,6 +13,13 @@
         <param name="onload" value="true" />
       </feature>
       <preference name="UseSwiftLanguageVersion" value="5" />
+    </config-file>
+
+    <config-file target="*-Debug.plist" parent="aps-environment">
+      <string>development</string>
+    </config-file>
+    <config-file target="*-Release.plist" parent="aps-environment">
+      <string>production</string>
     </config-file>
 
 		<!-- iOS Source Files -->
